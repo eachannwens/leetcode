@@ -1,7 +1,5 @@
 # Dynamic Programming
 
-[TOC]
-
 ## Categories of DP by ChatGPT:
 
 1. Optimization problems: These are problems where the task is to find the maximum or minimum value of a certain function or parameter. Examples include the **Knapsack problem**, Longest Common Subsequence problem, and Maximum Subarray problem.
