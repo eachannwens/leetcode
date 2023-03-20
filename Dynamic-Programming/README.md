@@ -2,7 +2,7 @@
 
 > Source: [Top 20 dynamic programming interview questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
 
-## Longest Common Subsequence
+## 1. Longest Common Subsequence
 
 For two text, `abcde` and `ace`
 
@@ -23,12 +23,12 @@ There are two cases:
 2. They are not matching.<br>
 `matrix[i][j] = max(matrix[i][j-1], matrix[i-1][j])`
 
-## Longest Increasing Subsequence
+## 2. Longest Increasing Subsequence
 
 For a sequence: `0, 1, 0, 3, 2, 3`<br>
 The key is how to avoid the **effect of non-optimal** memo.
 
-For this kind of sequence, we need to compare the value of each local optimal solution to current value. And the purpose of it, is to <u>determine whether add current value to the tail of that value</u>. To achieve it, we will use the structure:
+For this kind of sequence, we need to compare the value of each local optimal solution to current value. And the purpose of it, is to **determine whether add current value to the tail of that value**. To achieve it, we will use the structure:
 ```c++
 for (int i = 0; i < n; i++) {
     for (int j = 0; j < i; j++) {
