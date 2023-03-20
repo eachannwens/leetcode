@@ -1,5 +1,21 @@
 # Dynamic Programming
 
+[TOC]
+
+## Categories of DP by ChatGPT:
+
+1. Optimization problems: These are problems where the task is to find the maximum or minimum value of a certain function or parameter. Examples include the **Knapsack problem**, Longest Common Subsequence problem, and Maximum Subarray problem.
+
+2. Combinatorial problems: These are problems where the task is to find the number of ways to combine or arrange a set of objects or elements. Examples include the **Binomial Coefficient problem**, Permutation problem, and Combination problem.
+
+3. Path-finding problems: These are problems where the task is to find the shortest or longest path between two points in a given graph or network. Examples include the **Shortest Path problem**, All-Pairs Shortest Path problem, and Traveling Salesman problem.
+
+4. Sequencing problems: These are problems where the task is to find the optimal order or sequence of performing a set of tasks or operations. Examples include the **Matrix Chain Multiplication problem**, Job Sequencing problem, and Optimal Binary Search Tree problem.
+
+5. Graph algorithms: These are problems that involve graph traversal, such as finding the shortest path between two nodes or determining whether a cycle exists in a graph. Examples include the **Bellman-Ford algorithm**, Dijkstra's algorithm, and Floyd-Warshall algorithm.
+
+6. String algorithms: These are problems that involve manipulating and analyzing strings. Examples include the **Edit Distance problem**, Longest Palindromic Substring problem, and String Matching problem.
+
 > Source: [Top 20 dynamic programming interview questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
 
 ## 1. Longest Common Subsequence
@@ -13,7 +29,7 @@ For two text, `abcde` and `ace`
 |c|0|0|0|0|0|0|
 |e|0|0|0|0|0|0|
 
-> The key idea is reusing the previous best solution.
+The key idea is reusing the previous best solution.
 
 There are two cases:
 
@@ -58,3 +74,5 @@ and the result is the optimal solution of current value.
 1|max(1, 1+1)|-|-
 2|-|max(2, 2+1)|-
 1|-|-|max(3, 1+1)
+
+## 3. Edit Distance
