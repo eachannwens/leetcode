@@ -4,7 +4,9 @@
         "vector": "cpp",
         "iosfwd": "cpp",
         "map": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "numeric": "cpp"
     },
     "cSpell.words": [
         "Yuanchun"

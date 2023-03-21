@@ -1,4 +1,16 @@
-# Dynamic Programming
+# My Classification of DP
+
+1. 0/1 Knapsack
+
+    1.1. Partition Equal Subset Sum
+
+2. Tabulation
+
+    2.1. Longest Common Subsequence
+    
+    2.2. Longest Increasing Subsequence
+
+# Dynamic Programming Problems
 
 ## Categories of DP by ChatGPT:
 
