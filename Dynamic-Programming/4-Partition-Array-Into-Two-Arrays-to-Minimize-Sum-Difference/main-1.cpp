@@ -70,9 +70,3 @@ int main() {
     cout << s.canPartition(nums) << endl;
     return 0;
 }
-
-/*
-1 0 0 0 0 0 0 0 0 0
-1 0 0 1 0 0 0 0 0 0
-1 0 0 1 
-*/

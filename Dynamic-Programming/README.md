@@ -4,6 +4,8 @@
 
     1.1. Partition Equal Subset Sum
 
+    1.2. Partition Array Into Two Arrays to Minimize Sum Difference (Hard)
+
 2. Tabulation
 
     2.1. Longest Common Subsequence

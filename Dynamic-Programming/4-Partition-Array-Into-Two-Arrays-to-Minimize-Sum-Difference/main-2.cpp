@@ -7,7 +7,12 @@ using namespace std;
 class Solution {
 public:
     int minimumDifference(vector<int>& nums) {
-        
+        // Sorry, it's too hard for me now.
         return 0;
     }
 };
+
+int main() {
+
+    return 0;
+}
