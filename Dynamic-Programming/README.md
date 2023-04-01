@@ -2,15 +2,23 @@
 
 1. 0/1 Knapsack
 
-    1.1. Partition Equal Subset Sum
+    - Partition Equal Subset Sum
 
-    1.2. Partition Array Into Two Arrays to Minimize Sum Difference (Hard)
+    - Partition Array Into Two Arrays to Minimize Sum Difference (Hard)
+
+2. Unbounded Knapsack
+
+3. Shortest Path
+
+4. Fibonacci Sequence
+
+    - Min Cost Climbing Stairs
 
 2. Tabulation
 
-    2.1. Longest Common Subsequence
+    - Longest Common Subsequence
     
-    2.2. Longest Increasing Subsequence
+    - Longest Increasing Subsequence
 
 # Dynamic Programming Problems
 
